@@ -33,7 +33,7 @@ export const Signin = () => {
           </form>
           <div className="link">
             <p>Don't have an account? <Link to="/signup">Signup</Link></p>
-            <Link to="" className="forgot">Forgot my password</Link>
+            <Link to="/forgot-password" className="forgot">Forgot my password</Link>
           </div>
         </div>
       </div>
