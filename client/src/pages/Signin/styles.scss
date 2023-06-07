@@ -1,0 +1,159 @@
+.container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #918d8d;
+
+  .content {
+    height: 700px;
+    width: 1000px;
+
+    display: flex;
+
+    background-color: #fff;
+
+    border-radius: 20px;
+
+    .first-column {
+      width: 45%;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+
+      background-image: url("../../assets//backlogin.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: contain;
+
+      h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 0.3em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+        color: #fff;
+
+        padding-bottom: 100px;
+      }
+
+      p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: initial;
+        color: #fff;
+      }
+    }
+
+    .second-column {
+      width: 55%;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        margin-bottom: 40px;
+
+        color: rgb(180, 72, 39);
+      }
+
+      form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .inputs {
+          width: 400px;
+
+          .email-input,
+          .pass-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+        }
+
+        button {
+          padding: 16px 80px 16px 80px;
+          margin-top: 40px;
+
+          border-radius: 10px;
+          border: none;
+          outline: none;
+
+          background-color: rgb(180, 72, 39);
+          color: #fff;
+
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          text-transform: uppercase;
+
+          transition: 0.4s all ease-in-out;
+
+          &:hover {
+            filter: brightness(0.6);
+            transition: 0.4s all ease-in-out;
+          }
+        }
+      }
+
+      .link {
+        display: flex;
+        align-items: center;
+
+        margin-top: 40px;
+
+        p {
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          color: #918d8d;
+
+          margin-right: 30px;
+
+          a {
+            text-decoration: none;
+            color: rgb(13, 59, 97);
+          }
+        }
+
+        a {
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+
+          text-decoration: none;
+          color: rgb(13, 59, 97);
+        }
+      }
+    }
+  }
+}
