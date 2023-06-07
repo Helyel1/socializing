@@ -1,13 +1,12 @@
-.container-signin {
-  height: 100vh;
+.container-signup {
   width: 100%;
+  height: 100vh;
 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   background-color: #918d8d;
-
   .content {
     height: 700px;
     width: 1000px;
@@ -17,50 +16,7 @@
     background-color: #fff;
 
     border-radius: 20px;
-
     .first-column {
-      width: 45%;
-      height: 100%;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-      gap: 20px;
-
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-
-      background-image: url("../../assets//backlogin.jpg");
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-      object-fit: contain;
-
-      h1 {
-        font-family: "Open Sans", sans-serif;
-        font-size: 40px;
-        font-weight: bold;
-        line-height: 0.3em;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-
-        color: #fff;
-
-        padding-bottom: 100px;
-      }
-
-      p {
-        font-family: "Open Sans", sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-        text-transform: initial;
-        color: #fff;
-      }
-    }
-
-    .second-column {
       width: 55%;
       height: 100%;
 
@@ -68,9 +24,6 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
 
       h1 {
         font-family: "Open Sans", sans-serif;
@@ -125,34 +78,61 @@
         }
       }
 
-      .link {
-        display: flex;
-        align-items: center;
+      .have-acc {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: initial;
 
-        margin-top: 40px;
+        color: #918d8d;
 
-        p {
-          font-family: "Open Sans", sans-serif;
-          font-size: 16px;
-          font-weight: bold;
-          color: #918d8d;
-
-          margin-right: 30px;
-
-          a {
-            text-decoration: none;
-            color: rgb(13, 59, 97);
-          }
-        }
+        margin-top: 50px;
 
         a {
-          font-family: "Open Sans", sans-serif;
-          font-size: 16px;
-          font-weight: bold;
-
           text-decoration: none;
+
           color: rgb(13, 59, 97);
         }
+      }
+    }
+
+    .second-column {
+      width: 45%;
+      height: 100%;
+
+      background-image: url(../../assets/backlogin.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: contain;
+
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+
+      h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        color: #fff;
+
+        margin-bottom: 80px;
+      }
+
+      p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: initial;
+
+        color: #fff;
       }
     }
   }

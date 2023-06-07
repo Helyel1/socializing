@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Signin = () => {
   return (
-    <div className="container">
+    <div className="container-signin">
       <div className="content">
         <div className="first-column">
           <h1>welcome back!</h1>
@@ -32,7 +32,7 @@ export const Signin = () => {
             <button>Sigin</button>
           </form>
           <div className="link">
-            <p>Don't have an account? <Link to="">Signup</Link></p>
+            <p>Don't have an account? <Link to="/signup">Signup</Link></p>
             <Link to="" className="forgot">Forgot my password</Link>
           </div>
         </div>

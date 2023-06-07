@@ -1,20 +1,20 @@
-input{
-    width: 100%;
-    padding: 16px;
+input {
+  width: 100%;
+  padding: 16px;
 
-    background-color: transparent;
+  background-color: transparent;
 
-    border: 2px solid #000;
-    border-radius: 10px;
-    outline: none;
+  border: 2px solid #000;
+  border-radius: 10px;
+  outline: none;
 
-    color: #fff;
+  color: rgb(13, 59, 97);
 
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 
-    &::placeholder{
-        color: rgb(13, 59, 97);
-    }
+  &::placeholder {
+    color: rgb(13, 59, 97);
+  }
 }
